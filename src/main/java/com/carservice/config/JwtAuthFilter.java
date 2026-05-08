@@ -23,10 +23,10 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     private final JwtUtil jwtUtil;
     private final UserRepository userRepository;
 
-    public JwtAuthFilter(JwtUtil jwtUtil, UserRepository userRepository) {
-        this.jwtUtil = jwtUtil;
-        this.userRepository = userRepository;
-    }
+//    public JwtAuthFilter(JwtUtil jwtUtil, UserRepository userRepository) {
+//        this.jwtUtil = jwtUtil;
+//        this.userRepository = userRepository;
+//    }
 
     @Override
     protected void doFilterInternal(HttpServletRequest request,
