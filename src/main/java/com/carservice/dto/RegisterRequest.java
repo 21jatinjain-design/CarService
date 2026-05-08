@@ -3,7 +3,10 @@ package com.carservice.dto;
 import jakarta.validation.constraints.*;
 import lombok.*;
 
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class RegisterRequest {
     @NotBlank
     private String name;
